@@ -27,9 +27,9 @@
     image_main: /img/works/argame/main.jpg
     image_sketches: /img/works/argame/sketches.png
     image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
-    video: /video/argame/overview.mp4
-    video2: /video/argame/overview.webm
-    video3: /video/argame/overview.ogv
+    video: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.mp4
+    video2: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.webm
+    video3: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.ogv
     video_image: /video/argame/poster_image.png
     # link_name: prototype
     # link: https://invis.io/ENO4FKZ29CZ
