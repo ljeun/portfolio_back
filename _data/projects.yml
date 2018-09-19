@@ -1,8 +1,9 @@
 -   title: Emission Detector
     type: Student work
     period: Oct.2017-Jan.2018
-    Role: Designer
-    description: Practical student work with a customer, Aeromon. I was involved in a full iteration of a product desgin, ranging from defining ux goals to designing and evaluating the concept
+    role: Designer
+    overview: Practical student work with a customer, Aeromon. I was involved in a full iteration of a product desgin, ranging from defining ux goals to designing and evaluating the concept
+    description: Emission monitoring system was to detect, measure unexpected emissions and report the summary to decision-makers. The problem is that novice users (decision making persons) have difficulties to notice/analyze critical information in their current system. After the meeting with stakeholders, our team defined  four UX goals; ease of use, clarity, naturalness, and functionality against the problem. The following jobs are as below. <br/> -Analyzed the current system in detail; functionality, UI, User Flows. <br/> -Designed new concept with changed user flow, consistent UI elements.<br/> -Visualized screens in accordance with the new concept.<br/> -Worked interactive prototype to see how it works by actions.<br/> -Evaluated the prototype with two evaluation methods; AttrakDiff and ASQ( After-Scenario-Questionnaire)
     image_main: /img/works/emissions/main.png
     image_main_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
     image_sketches: /img/works/emissions/sketches.png
@@ -12,8 +13,8 @@
 -   title: Debator
     type: Student work
     period: Oct.2017-Dec.2017
-    Role: Designer
-    description: Debate application design for classmate's hobby. I designed app icon and graphical user interface(GUI), using Sketch, Craft Manager plugin, Invision.
+    role: Designer
+    overview: Debate application design for classmate's hobby. I designed app icon and graphical user interface(GUI), using Sketch, Craft Manager plugin, Invision.
     image_main: /img/works/debator/main.png
     image_sketches: /img/works/debator/sketches.png
     # link_name: prototype
@@ -22,8 +23,8 @@
 -   title: AR Mobile Game on the Ride
     type: Student work
     period: Oct.2017-Dec.2017
-    Role: Designer
-    description: A concept design work of multimodal interaction. I planned and designed interactions of different modalities, which is for bus users to experience their rides more joyful and meaningful. (designed and evaluated wtih paper prototype) <br/> This is AR mobile game application. Through gaze tracking and shake gesture interaction, users save their favorite buildings or nature elements in the city while riding a bus. With the collected objects, the user can make their own city map in the application
+    role: Designer
+    overview: A concept design work of multimodal interaction. I planned and designed interactions of different modalities, which is for bus users to experience their rides more joyful and meaningful. (designed and evaluated wtih paper prototype) <br/> This is AR mobile game application. Through gaze tracking and shake gesture interaction, users save their favorite buildings or nature elements in the city while riding a bus. With the collected objects, the user can make their own city map in the application
     image_main: /img/works/argame/main.jpg
     image_sketches: /img/works/argame/sketches.png
     image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'

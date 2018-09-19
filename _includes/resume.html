@@ -17,9 +17,11 @@
             <p class="pre-desc">{{ project.period }} &nbsp;&nbsp; {{ project.type }}</p>
             <!-- <p class="type">{{ project.type }}</p> -->
             <p class="title">{{ project.title }}</p>
-            <p class="description">{{ project.description }}
+            <p class="overview">{{ project.overview }}
               <a class="link" href='{{ project.link}}' target="_blank">{{ project.link_name}}</a>
             </p>
+            <br/>
+            <p class="description">{{ project.description }}
             <img data-action="zoom" class="project-image-sketches" style='{{ project.image_sketches_style }}' src='{{ project.image_sketches | relative_url }}' alt="Emission Detector, work by Jeongeun Lee" >
         </dd>
     {% endfor %}
