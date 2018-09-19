@@ -3,7 +3,11 @@
     {% for project in site.data.projects %}
         <dt>
           {% if project.video %}
-            <video width="400" poster="{{ project.video_image }}" autoplay="" muted="" loop="" controls preload> <source src="{{ project.video }}"> </video>
+            <video width="400" poster="{{ project.video_image }}" autoplay="" muted="" loop="" controls preload>
+              <source src="{{ project.video }}"></source>
+              <source src="{{ project.video2 }}"></source>
+              <source src="{{ project.video3 }}"></source>
+            </video>
               {% endif %}
             <img data-action="zoom" class="project-image-main" style='{{ project.image_main_style }}' src='{{ project.image_main | relative_url }}' alt="Project works by Jeongeun Lee" >
 
