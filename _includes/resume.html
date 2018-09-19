@@ -20,16 +20,32 @@
     {% endfor %}
 </dl>
 
-<h3 class="section-title">Education</h3>
+<h3 class="section-title">Experience</h3>
 <dl class="project">
-    {% for qualification in site.data.education %}
+    {% for experience in site.data.experiences %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
+          <img data-action="zoom" class="project-image-main" style='{{ experience.image_style }}' src='{{ experience.image | relative_url }}' alt="Project works by Jeongeun Lee" >
+
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <p class="pre-desc">{{ experience.company }} </p>
+            <p class="title">{{ experience.qualification }}</p>
+            <p>{{ experience.description }}</p>
         </dd>
     {% endfor %}
 </dl>
+
+<!-- <h3 class="section-title">Personal Activities</h3>
+<dl class="project">
+    {% for activity in site.data.activities %}
+        <dt>
+          <img data-action="zoom" class="project-image-main" style='{{ activity.image_style }}' src='{{ activity.image | relative_url }}' alt="Project works by Jeongeun Lee" >
+
+        </dt>
+        <dd>
+            <p class="pre-desc">{{ activity.period }} </p>
+            <p class="title">{{ activity.title }}</p>
+            <p>{{ activity.description }}</p>
+        </dd>
+    {% endfor %}
+</dl> -->
