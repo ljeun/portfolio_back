@@ -3,7 +3,7 @@
     {% for project in site.data.projects %}
         <dt>
           {% if project.video %}
-          <iframe width="400" height="225" src="{{ project.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe class="project-video" src="{{ project.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <!-- <video width="400" height="300" poster="{{ project.video_image }}" autoplay muted controls >
               <source src="{{ project.video_mp4 }}" type="video/mp4" ></source>
               <source src="{{ project.video_webm }}" type="video/webm" ></source>
