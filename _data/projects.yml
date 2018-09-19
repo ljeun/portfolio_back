@@ -3,7 +3,7 @@
     period: Oct.2017-Jan.2018
     role: Designer
     overview: Practical student work with a customer, Aeromon. I was involved in a full iteration of a product desgin, ranging from defining ux goals to designing and evaluating the concept
-    description: Emission monitoring system was to detect, measure unexpected emissions and report the summary to decision-makers. The problem is that novice users (decision making persons) have difficulties to notice/analyze critical information in their current system. After the meeting with stakeholders, our team defined  four UX goals; ease of use, clarity, naturalness, and functionality against the problem. The following jobs are as below. <br/> -Analyzed the current system in detail; functionality, UI, User Flows. <br/> -Designed new concept with changed user flow, consistent UI elements.<br/> -Visualized screens in accordance with the new concept.<br/> -Worked interactive prototype to see how it works by actions.<br/> -Evaluated the prototype with two evaluation methods; AttrakDiff and ASQ( After-Scenario-Questionnaire)
+    description: Emission monitoring system was to detect, measure unexpected emissions and report the summary to decision-makers. The problem is that novice users (decision making persons) have difficulties to notice/analyze critical information in their current system. After the meeting with stakeholders, our team defined  four UX goals; ease of use, clarity, naturalness, and functionality against the problem. The following jobs are as below.<br/> -Analyzed the current system in detail; functionality, UI, User Flows. <br/> -Designed new concept with changed user flow, consistent UI elements.<br/> -Visualized screens in accordance with the new concept.<br/> -Worked interactive prototype to see how it works by actions.<br/> -Evaluated the prototype with two evaluation methods; AttrakDiff and ASQ( After-Scenario-Questionnaire)
     image_main: /img/works/emissions/main.png
     image_main_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
     image_sketches: /img/works/emissions/sketches.png
@@ -14,7 +14,8 @@
     type: Student work
     period: Oct.2017-Dec.2017
     role: Designer
-    overview: Debate application design for classmate's hobby. I designed app icon and graphical user interface(GUI), using Sketch, Craft Manager plugin, Invision.
+    overview: Debate application design for a classmate's hobby. I designed app icon and graphical user interface(GUI), using Sketch, Craft Manager plugin, Invision.
+    description: One of my classmate is in debate club as an hobby. The club members have high barriers to start a debate in every club meeting; arranging time, assigning participants, selecting a debate motion, which id depressing their motivation. In this context, we tried to make a 'Debator' application to solve the problems. The goal was to make debates inclusive and engaging at all times. We developed conceptual model in order and build a navigation model through DoGo map. we designed inital wireframe and updated several times with team discussion and feedback from others. For the last step, I designed icons, color sets, and graphical user interfaces on screens. <br/> The challenging question was whether 3D touch is needed for users to stop(terminate) a time with one button of 'pause'. (normal tap;pause, 3D touch tap; stop) If then, how can we design for that? It is still controversial but we concluded that using 3D touch could be useful once they notice and familiar with the action. So, we progressed that way at the moment. In the future, this may need usability evaluation if the application is actually implemented.
     image_main: /img/works/debator/main.png
     image_sketches: /img/works/debator/sketches.png
     # link_name: prototype
@@ -24,7 +25,8 @@
     type: Student work
     period: Oct.2017-Dec.2017
     role: Designer
-    overview: A concept design work of multimodal interaction. I planned and designed interactions of different modalities, which is for bus users to experience their rides more joyful and meaningful. (designed and evaluated wtih paper prototype) <br/> This is AR mobile game application. Through gaze tracking and shake gesture interaction, users save their favorite buildings or nature elements in the city while riding a bus. With the collected objects, the user can make their own city map in the application
+    overview: A concept design work of multimodal interaction. I planned and designed interactions of different modalities.
+    description: This is AR mobile game application for bus users, which aims to experience their rides more joyful and meaningful. Through gaze tracking and shake gesture interaction, users save their favorite buildings or nature elements in the city while riding a bus. With the collected items, the user can make their own city map in the application. I did quick prototype with paper and evaluated that using SUXES method for small group of people.
     image_main: /img/works/argame/main.jpg
     image_sketches: /img/works/argame/sketches.png
     image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
