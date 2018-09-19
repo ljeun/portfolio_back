@@ -28,5 +28,6 @@
     image_sketches: /img/works/argame/sketches.png
     image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
     video: /video/argame/multimodal_interaction_project.mp4
+    video_image: /video/argame/poster_image.png
     # link_name: prototype
     # link: https://invis.io/ENO4FKZ29CZ
