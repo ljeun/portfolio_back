@@ -1,0 +1,35 @@
+<h3 class="section-title">Works</h3>
+<dl class="project">
+    {% for project in site.data.projects %}
+        <dt>
+          {% if project.video %}
+            <video width="400" poster="" autoplay="" muted="" loop=""> <source src="{{ project.video }}"> </video>
+              {% endif %}
+            <img data-action="zoom" class="project-image-main" style='{{ project.image_main_style }}' src='{{ project.image_main | relative_url }}' alt="Project works by Jeongeun Lee" >
+
+        </dt><!--
+        --><dd>
+            <p class="pre-desc">{{ project.period }} &nbsp;&nbsp; {{ project.type }}</p>
+            <!-- <p class="type">{{ project.type }}</p> -->
+            <p class="title">{{ project.title }}</p>
+            <p class="description">{{ project.description }}
+              <a class="link" href='{{ project.link}}' target="_blank">{{ project.link_name}}</a>
+            </p>
+            <img data-action="zoom" class="project-image-sketches" style='{{ project.image_sketches_style }}' src='{{ project.image_sketches | relative_url }}' alt="Emission Detector, work by Jeongeun Lee" >
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Education</h3>
+<dl class="project">
+    {% for qualification in site.data.education %}
+        <dt>
+            <p class="title">{{ qualification.qualification }}</p>
+            <p class="company">{{ qualification.school }}</p>
+            <p class="period">{{ qualification.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>

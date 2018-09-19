@@ -1,0 +1,84 @@
+// @name Resume
+// @description All resume styles
+
+dl {
+    margin-bottom: $spacer;
+}
+
+dt, dd {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: $spacer;
+}
+
+@media(min-width: 640px) {
+    dt, dd {
+        margin-bottom: 100px;
+    }
+
+    .project {
+        dt{
+            width: 55%;
+        }
+        dd {
+          width: 45%;
+        }
+    }
+}
+
+.title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+a {
+    color: black;
+    background: rgba(245, 215, 110, .5);
+    transition: all linear .2s;
+
+    &:hover {
+        background: rgba(245, 215, 110, 1);
+        text-decoration: none;
+    }
+}
+
+.pre-desc {
+  // font-size: 0.8rem;
+  color: rgba(82, 82, 82, 1);
+  margin-bottom: 20px;
+}
+
+.description {
+  color: rgba(82, 82, 82, 1);
+}
+
+.project-image-main {
+  width: 400px;
+}
+
+.project-image-sketches {
+  margin-top: 60px;
+  width: 600px;
+}
+
+.link {
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 198, 0, .6);
+  text-decoration: none;
+
+  &:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 198, 0, 1);
+    //text-decoration: underline;
+    //text-decoration-color: rgba(245, 215, 110, 1);
+}
+    // color: black!important;
+    // background: rgba(245, 215, 110, .5);
+    // transition: all linear .2s;
+    //
+    // &:hover {
+    //     background: rgba(245, 215, 110, 1);
+    //     text-decoration: none;
+    // }
+}
