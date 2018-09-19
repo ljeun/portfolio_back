@@ -2,12 +2,13 @@
 <dl class="project">
     {% for project in site.data.projects %}
         <dt>
-          {% if project.video_mp4 %}
-            <video width="400" height="300" poster="{{ project.video_image }}" autoplay muted controls >
+          {% if project.video %}
+          <iframe width="400" height="225" src="{{ project.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- <video width="400" height="300" poster="{{ project.video_image }}" autoplay muted controls >
               <source src="{{ project.video_mp4 }}" type="video/mp4" ></source>
               <source src="{{ project.video_webm }}" type="video/webm" ></source>
               <source src="{{ project.video_ogg }}" type="video/ogg" ></source>
-            </video>
+            </video> -->
               {% endif %}
             <img data-action="zoom" class="project-image-main" style='{{ project.image_main_style }}' src='{{ project.image_main | relative_url }}' alt="Project works by Jeongeun Lee" >
 
