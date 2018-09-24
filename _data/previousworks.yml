@@ -1,0 +1,19 @@
+-   image1: /img/pwork/01.jpg
+    image2: /img/pwork/02.jpg
+    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
+
+-   image1: /img/pwork/03.jpg
+    image2: /img/pwork/04.jpg
+    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
+
+-   image1: /img/pwork/05.jpg
+    image2: /img/pwork/06.jpg
+    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
+
+-   image1: /img/pwork/07.jpg
+    image2: /img/pwork/08.jpg
+    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
+
+-   image1: /img/pwork/10.jpg
+    image2: /img/pwork/11.jpg
+    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'

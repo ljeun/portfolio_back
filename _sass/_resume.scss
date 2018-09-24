@@ -28,6 +28,12 @@ dd p:last-child {
   width: 100%;
 }
 
+.pwork {
+  dt, dd {
+      width: 49.6%;
+    }
+}
+
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 100px;
@@ -43,11 +49,6 @@ dd p:last-child {
         }
     }
 
-    .experience {
-      dt, dd {
-          width: 50%;
-      }
-    }
 
     .project-image-main {
       width: 94%;

@@ -27,7 +27,7 @@
     {% endfor %}
 </dl>
 
-<h3 class="section-title">Experience</h3>
+<h3 class="section-title">Work Experience</h3>
 <dl class="project">
     {% for experience in site.data.experiences %}
         <dt>
@@ -42,17 +42,15 @@
     {% endfor %}
 </dl>
 
-<!-- <h3 class="section-title">Personal Activities</h3>
-<dl class="project">
-    {% for activity in site.data.activities %}
+<h3 class="section-title">Previous Student Works</h3>
+<dl class="pwork">
+    {% for pwork in site.data.previousworks %}
         <dt>
-          <img data-action="zoom" class="project-image-main" style='{{ activity.image_style }}' src='{{ activity.image | relative_url }}' alt="Project works by Jeongeun Lee" >
+          <img data-action="zoom" class="project-image-main" style='{{ pwork.image_style }}' src='{{ pwork.image1 | relative_url }}' alt="Project works by Jeongeun Lee" >
 
         </dt>
         <dd>
-            <p class="pre-desc">{{ activity.period }} </p>
-            <p class="title">{{ activity.title }}</p>
-            <p>{{ activity.description }}</p>
+            <img data-action="zoom" class="project-image-main" style='{{ pwork.image_style }}' src='{{ pwork.image2 | relative_url }}' alt="Project works by Jeongeun Lee" >
         </dd>
     {% endfor %}
-</dl> -->
+</dl>
