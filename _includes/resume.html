@@ -12,10 +12,9 @@
               {% endif %}
             <img data-action="zoom" class="project-image-main" style='{{ project.image_main_style }}' src='{{ project.image_main | relative_url }}' alt="Project works by Jeongeun Lee" >
 
-        </dt><!--
-        --><dd>
+        </dt>
+        <dd>
             <p class="pre-desc">{{ project.period }} &nbsp;&nbsp; {{ project.type }}</p>
-            <!-- <p class="type">{{ project.type }}</p> -->
             <p class="title">{{ project.title }}</p>
             <p class="overview">{{ project.overview }}
               <a class="link" href='{{ project.link}}' target="_blank">{{ project.link_name}}</a>
@@ -27,14 +26,13 @@
     {% endfor %}
 </dl>
 
-<h3 class="section-title">Work Experience</h3>
+<h3 class="section-title">Experience</h3>
 <dl class="project">
     {% for experience in site.data.experiences %}
         <dt>
           <img data-action="zoom" class="project-image-main" style='{{ experience.image_style }}' src='{{ experience.image | relative_url }}' alt="Project works by Jeongeun Lee" >
-
-        </dt><!--
-        --><dd>
+        </dt>
+        <dd>
             <p class="pre-desc">{{ experience.company }} </p>
             <p class="title">{{ experience.qualification }}</p>
             <p>{{ experience.description }}</p>
@@ -42,15 +40,22 @@
     {% endfor %}
 </dl>
 
-<h3 class="section-title">Previous Student Works</h3>
-<dl class="pwork">
+<h3 class="section-title">Previous Student Work</h3>
+<dl class="project">
     {% for pwork in site.data.previousworks %}
         <dt>
-          <img data-action="zoom" class="project-image-main" style='{{ pwork.image_style }}' src='{{ pwork.image1 | relative_url }}' alt="Project works by Jeongeun Lee" >
+          <img data-action="zoom" class="project-image-main" style='{{ pwork.image_style }}' src='{{ pwork.image_main | relative_url }}' alt="Project works by Jeongeun Lee" >
 
         </dt>
         <dd>
-            <img data-action="zoom" class="project-image-main" style='{{ pwork.image_style }}' src='{{ pwork.image2 | relative_url }}' alt="Project works by Jeongeun Lee" >
-        </dd>
+              <p class="pre-desc">{{ pwork.period }} &nbsp;&nbsp; {{ pwork.type }}</p>
+              <p class="title">{{ pwork.title }}</p>
+              <p class="overview">{{ pwork.overview }}
+                <a class="link" href='{{ pwork.link}}' target="_blank">{{ pwork.link_name}}</a>
+              </p>
+              <br/>
+              <p class="description">{{ pwork.description }}
+              <!-- <img data-action="zoom" class="project-image-sketches" style='{{ project.image_sketches_style }}' src='{{ project.image_sketches | relative_url }}' alt="Emission Detector, work by Jeongeun Lee" > -->
+          </dd>
     {% endfor %}
 </dl>

@@ -1,19 +1,26 @@
--   image1: /img/pwork/01.jpg
-    image2: /img/pwork/02.jpg
+-   title: Navigation for the Visually Impaired
+    type: Student work
+    period: Sep.2010-Dec.2010
+    role: Designer
+    overview: Accessibility project for the visually impaired to find their way with mobile phone. I was involved in UI design and evaluation.
+    description: This is a journey planner application. The user searches their destination and plays the locations with sound while user are under the journey. The team set with Business, Design, and Engineering Department of the school. We went through contents ideation and user research at the same time by visiting Association for the Visually Impaired. After defining the service concept with persona and user stories, I designed UI in details and iterated a few times with team discussion and feedback from others. Due to time limitation, the test with actual implemented feature was quite short, but I have learned so much how the actual service is created in wider views.
+    image_main: /img/pwork/01.png
     image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
 
--   image1: /img/pwork/03.jpg
-    image2: /img/pwork/04.jpg
+-   title: Green Board
+    type: Student work
+    period: Sep.2009-Dec.2009
+    role: Designer
+    overview: Interactive Information Design about the effects of dissolving a greenbelt zone in the city. I analyzed the real data and visualized the flow with effects.
+    description: The information design shows how our environment would change, as Green belt is dissolved in Seoul Metropolitan Area to devleop economy of the city. There are three interactive phases; past, present, and future. For the past periods, this work introduces the economical and environmental changes throught data from 1999 to 2009. In the present phase, user can click and drag any left greenbelt zones. Accordingly, the scene changes to the next future time and the user can play game by putting high blocks or trees. As a result, the user see how the effect will come in the future. <br/> At first, we analyzed the real data information regarding the green belt zones. Then, we focused on why and how this information is meaningful and joyful for users at the same time. Our team developed some stories by time and visualized, implemented the interactive contents. (I have used Adobe Photoshop and Flash)
+    image_main: /img/pwork/02.png
     image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
 
--   image1: /img/pwork/05.jpg
-    image2: /img/pwork/06.jpg
-    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
-
--   image1: /img/pwork/07.jpg
-    image2: /img/pwork/08.jpg
-    image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
-
--   image1: /img/pwork/10.jpg
-    image2: /img/pwork/11.jpg
+-   title: HyeYum
+    type: Student work
+    period: Sep.2009-Dec.2009
+    role: Designer
+    overview: Interactive Web Design by point & click game. I was involved in overall planning, parts of design and implementation.
+    description: The web game design aims to intrigue users immersed in this traditional palace, Geongbok-Gung. There are 4 stage based on goal-centered theory related to 'edutainment'. We defined users at first as foreigners or childern who whould like to know what this historical palace is and how this is designed long time ago. We visited the palace, Geongbok-Gung, to experience the space and gather informations including photos. From the guides of the class professor, we developed more the palce story as a game format. As a result, we designed and developed the interactive web contents by point & click game in one way by time.
+    image_main: /img/pwork/03.png
     image_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'

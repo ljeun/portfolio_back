@@ -28,12 +28,6 @@ dd p:last-child {
   width: 100%;
 }
 
-.pwork {
-  dt, dd {
-      width: 49.6%;
-    }
-}
-
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 100px;
@@ -45,7 +39,7 @@ dd p:last-child {
             padding-right: ($spacer * 2);
         }
         dd {
-          width: 45%;
+          width: 44.4%;
         }
     }
 
