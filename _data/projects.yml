@@ -1,3 +1,15 @@
+-   title: A Gamified Augmented Reality Application for Tourists
+    type: Master's Thesis Work
+    period: Nov.2018 - (Current)
+    role: Researcher, Designer
+    overview: An empirical design research work with AR technology and gamification to encourage local food consumption for tourists.
+    description: This work aims to understand the needs of tourists on their food consumption and to design an application that uses gamified augmented reality (AR) to meet them. The main question is <br/>(1) What kind of gamified AR application can support travelers to find information about local food? <br/>(2) Do travelers get motivated to consume local food when they use the gamified AR application?. <br/><br/> Currently, the work is in progress of user study and will go through designing, prototypiung, and evaluation.
+    image_main: /img/works/masterthesis/main.png
+    image_sketches: /img/works/masterthesis/sketches.jpeg
+    image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
+    # link_name: prototype
+    # link: https://invis.io/ENO4FKZ29CZ
+
 -   title: Emission Detector
     type: Student work
     period: Oct.2017-Jan.2018
