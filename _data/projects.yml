@@ -3,7 +3,7 @@
     period: Nov.2018 - (Current)
     role: Researcher, Designer
     overview: An empirical design research work with AR technology and gamification to encourage local food consumption for tourists.
-    description: This work aims to understand the needs of tourists on their food consumption and to design an application that uses gamified augmented reality (AR) to meet them. The main question is <br/>(1) What kind of gamified AR application can support travelers to find information about local food? <br/>(2) Do travelers get motivated to consume local food when they use the gamified AR application?. <br/><br/> Currently, the work is in progress of user study and will go through designing, prototypiung, and evaluation.
+    description: This work aims to understand the needs of tourists on their food consumption and to design an application that uses gamified augmented reality (AR) to meet them. The main questions are <br/>(1) What kind of gamified AR application can support travelers to find information about local food? <br/>(2) Do travelers get motivated to consume local food when they use the gamified AR application? <br/><br/> Currently, the work is in progress of user study and will go through designing, prototypiung, and evaluation.
     image_main: /img/works/masterthesis/main.png
     image_sketches: /img/works/masterthesis/sketches.jpeg
     image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
@@ -12,7 +12,7 @@
 
 -   title: Emission Detector
     type: Student work
-    period: Oct.2017-Jan.2018
+    period: Oct.2017-Mar.2018
     role: Designer
     overview: Industrial project work with an emission company, Aeromon. I was involved in a user experience design and evaluation, ranging from defining UX goals to designing and evaluating the concept
     description: Emission monitoring system was to detect, measure unexpected emissions and report the summary to decision-makers. The problem was that novice users (decision making persons) have difficulties to notice/analyze critical information in their current system. After the meeting with stakeholders, our team defined  four UX goals; ease of use, clarity, naturalness, and functionality against the problem. The following tasks are as below.<br/> -Analyzed the current system in detail in both pragmatic and hedonic ways; functionality, UI, User Flows. <br/> -Designed new concept with changed user flow, consistent UI elements.<br/> -Visualized screens in accordance with the new concept.<br/> -Worked interactive prototype to see how it works by actions.<br/> -Evaluated the prototype with two evaluation methods; AttrakDiff and ASQ( After-Scenario-Questionnaire) <br/><br/> It was the most difficult to consider the completely different group of users. Since the users include both technical engineers and the decision-makers like the administrative head of officer, there were huge gaps between them for the familarity and proficiency with the system. However, the most significant data was the same, which allowed us to focus on that view.
