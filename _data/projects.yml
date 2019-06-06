@@ -2,13 +2,8 @@
     type: Master's Thesis
     period: Dec.2018 - May.2019
     role: Researcher, Designer
-<<<<<<< HEAD
     overview: An empirical design study with AR technology and gamification to encourage tourists' local food consumption.
     description: Local food is unfamiliar to travelers in new places, and it is a challenge that requires much time and effort to choose and find the information. Augmented Reality (AR) and gamification can derive a possibility to support travelers to consume local food. The benefits of MAR and gamification were explored through the design and evaluation of a gamified MAR application prototype to encourage travelers’ local food consumption. <br/> From user studies (observations, interviews and initial concept evaluation), tourists’ needs were identified, and UX goals were defined as adventure, autonomy, and competence as to what experiences the application provides. The goals guided the design and evaluation of a gamified MAR application. The application recognizes the real food through an AR mobile screen and displays basic food information with name/ingredient and 'food miles' which refers to how far the main ingredients come from the distance. Besides, gamification was applied for the users’ actions as collecting the food/ingredients and assigning levels according to how much local food a user consumed. <br/><br/> The final document will be released on 19.June.2019 > https://dspace.cc.tut.fi/dpub/
-=======
-    overview: An empirical design research work with AR technology and gamification to encourage local food consumption for tourists.
-    description: This work aims to understand the needs of tourists on their food consumption and to design an application that uses gamified augmented reality (AR) to meet them. The main questions are <br/>(1) What kind of gamified AR application can support travelers to find information about local food? <br/>(2) Do travelers get motivated to consume local food when they use the gamified AR application? <br/><br/> Currently, the work is in progress of user study and will go through designing, prototypiung, and evaluation.
->>>>>>> ebae82f19f358849379f998f60c44590b2ca62cc
     image_main: /img/works/masterthesis/main.png
     image_sketches: /img/works/masterthesis/sketches.png
     video: https://www.youtube.com/embed/zWNMQqRc3As
@@ -27,13 +22,8 @@
     # link: https://invis.io/ENO4FKZ29CZ
 
 -   title: Emission Detector
-<<<<<<< HEAD
-    type: Student Work
-    period: Oct.2017-Jan.2018
-=======
     type: Student work
     period: Oct.2017-Mar.2018
->>>>>>> ebae82f19f358849379f998f60c44590b2ca62cc
     role: Designer
     overview: Industrial project work with an emission company, Aeromon. I was involved in a user experience design and evaluation, ranging from defining UX goals to designing and evaluating the concept
     description: Emission monitoring system was to detect, measure unexpected emissions and report the summary to decision-makers. The problem was that novice users (decision making persons) have difficulties to notice/analyze critical information in their current system. After the meeting with stakeholders, our team defined  four UX goals; ease of use, clarity, naturalness, and functionality against the problem. The following tasks are as below.<br/> -Analyzed the current system in detail in both pragmatic and hedonic ways; functionality, UI, User Flows. <br/> -Designed new concept with changed user flow, consistent UI elements.<br/> -Visualized screens in accordance with the new concept.<br/> -Worked interactive prototype to see how it works by actions.<br/> -Evaluated the prototype with two evaluation methods; AttrakDiff and ASQ( After-Scenario-Questionnaire) <br/><br/> It was the most difficult to consider the completely different group of users. Since the users include both technical engineers and the decision-makers like the administrative head of officer, there were huge gaps between them for the familarity and proficiency with the system. However, the most significant data was the same, which allowed us to focus on that view.
