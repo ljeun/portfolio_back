@@ -7,12 +7,13 @@ description: Jeongeun Lee's Portfolio
 baseurl: /portfolio
 url: https://ljeun.github.io/portfolio/
 name: Jeongeun
-job: user experience designer
+job: digital product designer or UX/UI designer
 location: Tampere, Finland
 languages: HTML, CSS, Javascript and JQuery
 github_username:  ljeun
 email_address: vcp.jeongeun@gmail.com
 phone_number: +358465552105
+hello_image: /img/header/hello.png
 
 # Build settings
 markdown: kramdown

@@ -2,10 +2,14 @@
     <div class="container">
         <div class="intro">
             <!-- <p class="intro__pre">Jeongeun Lee</p> -->
-            <p class="intro__main">Hello, I'm <span>{{ site.name }}</span>,
-              <br/> a {{ site.job }}.
-              <br/> Interested in our daily lives, balancing between analogue and digital.</p>
-            <p class="intro__post">{{ site.location }}</p>
+            <p class="intro__main">Hello!
+              <img data-action="zoom" src='{{ site.hello_image }}' alt="Hello Image" width="80" >
+              I'm <span>{{ site.name }}</span>,
+              <br/></p>
+            <p class="intro__body"> a {{ site.job }}.<br/>
+            Love to solve problems with human experience of a product or service to make our lives better. </p>
+            <br/>
+            <!-- <p class="intro__post">{{ site.location }}</p> -->
         </div>
 
         {{ if site.github_username or site.codepen_username or site.twitter_username or site.email_address }}
