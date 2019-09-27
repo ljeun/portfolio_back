@@ -33,6 +33,14 @@ header {
         }
     }
 
+    &__main > span::before {
+        content: ' ';
+        display: block;
+        @media(min-width: 640px) {
+          display: inherit;
+        }
+    }
+
     &__body {
       font-family: "Lora";
         font-size: 1.6rem;
