@@ -4,9 +4,10 @@
     role: Researcher, Designer
     overview: An empirical design study with AR technology and gamification to encourage tourists' local food consumption.
     description: Local food is unfamiliar to travelers in new places, and it is a challenge that requires much time and effort to choose and find the information. Augmented Reality (AR) and gamification can derive a possibility to support travelers to consume local food. The benefits of MAR and gamification were explored through the design and evaluation of a gamified MAR application prototype to encourage travelers’ local food consumption. <br/> From user studies (observations, interviews and initial concept evaluation), tourists’ needs were identified, and UX goals were defined as adventure, autonomy, and competence as to what experiences the application provides. The goals guided the design and evaluation of a gamified MAR application. The application recognizes the real food through an AR mobile screen and displays basic food information with name/ingredient and 'food miles' which refers to how far the main ingredients come from the distance. Besides, gamification was applied for the users’ actions as collecting the food/ingredients and assigning levels according to how much local food a user consumed. <br/><br/> <a href="https://trepo.tuni.fi/handle/123456789/27605" class="link">Thesis Document (open access)</a>
-    image_main: /img/works/masterthesis/main.png
+    image_main: /img/works/masterthesis/demo.gif
+    #image_main: /img/works/masterthesis/main.png
     image_sketches: /img/works/masterthesis/sketches.png
-    video: https://www.youtube.com/embed/zWNMQqRc3As
+    #video: https://www.youtube.com/embed/zWNMQqRc3As
     # link_name: prototype
     # link: https://invis.io/ENO4FKZ29CZ
 
@@ -44,19 +45,19 @@
     # link_name: prototype
     # link: https://invis.io/ENO4FKZ29CZ
 
--   title: AR Mobile Game on the Ride
-    type: Student Work
-    period: Oct.2017-Dec.2017
-    role: Designer
-    overview: A concept design work of multimodal interaction. I planned and designed interactions of different modalities.
-    description: This is AR mobile game application for bus users, which aims to experience their rides more joyful and meaningful. Through gaze tracking and shake gesture interaction, users save their favorite buildings or nature elements in the city while riding a bus. With the collected items, the user can make their own city map in the application. I did quick prototype with paper and evaluated that using SUXES method for small group of people.
-    image_main: /img/works/argame/main.jpg
-    image_sketches: /img/works/argame/sketches.png
-    image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
-    video: https://www.youtube.com/embed/JMdLpSvNAso
-    video_mp4: https://drive.google.com/open?id=1JxpClA9gFYrKP8wXWQ-6uQR7C8RADScP
-    video_webm: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.webm
-    video_ogg: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.ogv
-    video_image: https://drive.google.com/open?id=1RxOVq3BD88ABn9n-rsARVd3ZhkMutX_L/video/argame/poster_image.png
+# -   title: AR Mobile Game on the Ride
+#     type: Student Work
+#     period: Oct.2017-Dec.2017
+#     role: Designer
+#     overview: A concept design work of multimodal interaction. I planned and designed interactions of different modalities.
+#     description: This is AR mobile game application for bus users, which aims to experience their rides more joyful and meaningful. Through gaze tracking and shake gesture interaction, users save their favorite buildings or nature elements in the city while riding a bus. With the collected items, the user can make their own city map in the application. I did quick prototype with paper and evaluated that using SUXES method for small group of people.
+#     image_main: /img/works/argame/main.jpg
+#     image_sketches: /img/works/argame/sketches.png
+#     image_sketches_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
+#     video: https://www.youtube.com/embed/JMdLpSvNAso
+#     video_mp4: https://drive.google.com/open?id=1JxpClA9gFYrKP8wXWQ-6uQR7C8RADScP
+#     video_webm: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.webm
+#     video_ogg: https://github.com/ljeun/portfolio/blob/master/video/argame/overview.ogv
+#     video_image: https://drive.google.com/open?id=1RxOVq3BD88ABn9n-rsARVd3ZhkMutX_L/video/argame/poster_image.png
     # link_name: prototype
     # link: https://invis.io/ENO4FKZ29CZ
