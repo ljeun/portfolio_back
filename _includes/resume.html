@@ -10,7 +10,7 @@
               <source src="{{ project.video_ogg }}" type="video/ogg" ></source>
             </video> -->
               {% endif %}
-            <img data-action="zoom" class="project-image-main" style='{{ project.image_main_style }}' src='{{ project.image_main | relative_url }}' alt="Project works by Jeongeun Lee" >
+            <img data-action="zoom" class="project-image-main" style='{{ project.image_main_style }}' src='{{ project.image_main | relative_url }}' alt="Project Works by Jeongeun Lee" >
 
         </dt>
         <dd>
@@ -30,12 +30,25 @@
 <dl class="project">
     {% for experience in site.data.experiences %}
         <dt>
-          <img data-action="zoom" class="project-image-main" style='{{ experience.image_style }}' src='{{ experience.image | relative_url }}' alt="Project works by Jeongeun Lee" >
+          <img data-action="zoom" class="project-image-main" style='{{ experience.image_style }}' src='{{ experience.image | relative_url }}' alt="Professional Experience by Jeongeun Lee" >
         </dt>
         <dd>
             <p class="pre-desc">{{ experience.company }} </p>
             <p class="title">{{ experience.qualification }}</p>
             <p>{{ experience.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Side Projects</h3>
+<dl class="project">
+    {% for sideproject in site.data.sideprojects %}
+        <dt>
+          <img data-action="zoom" class="project-image-main" style='{{ sideproject.image_style }}' src='{{ sideproject.image | relative_url }}' alt="Side Project Works by Jeongeun Lee" >
+        </dt>
+        <dd>
+            <p class="pre-desc">{{ sideproject.title }} </p>
+            <p>{{ sideproject.description }}</p>
         </dd>
     {% endfor %}
 </dl>
