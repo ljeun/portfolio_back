@@ -1,4 +1,9 @@
 <footer class="footer">
-    <p class="footer__title">{{ site.name }}</p>
-    <p class="footer__subtitle">{{ site.job }}</p>
+  <div class="container">
+  <div class="social">
+    <a href="jeongeun-lee.com" class="link">© {{ site.full_name }} </a>
+      {{ if site.phone_number }} <a href="tel:+358465552105" target="_blank">Mobile</a>{{ endif }}
+      {{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+  </div>
+  </div>
 </footer>
