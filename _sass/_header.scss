@@ -53,6 +53,15 @@ header {
             // max-width: 60%;
         }
     }
+    &__emoji {
+      margin: 16px 0px 0px -7px;
+      font-family: "Open Sans";
+      font-size: 1.0rem;
+      vertical-align: text-top;
+      writing-mode: vertical-rl;
+      display: inline-block;
+      //transform: rotate(-90deg);
+    }
 }
 
 .social {
