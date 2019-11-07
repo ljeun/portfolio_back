@@ -54,14 +54,37 @@ header {
         }
     }
     &__emoji {
-      margin: 16px 0px 0px -7px;
+      margin: 14px 0px 0px -6px;
       font-family: "Open Sans";
-      font-size: 1.0rem;
-      vertical-align: text-top;
+      font-size: 1.2rem;
+      vertical-align: top;
       writing-mode: vertical-rl;
       display: inline-block;
       //transform: rotate(-90deg);
+
+      position: relative;
+      -webkit-animation-name: jump; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+      animation-name: jump;
+      animation-duration: 3s;
+      animation-delay: 2s;
+      animation-iteration-count: 2;
     }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes jump {
+  0%   {left:0px; top:0px;}
+  50%  {left:0px; top:-50px;}
+  100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes jump {
+  0%   {left:0px; top:0px;}
+  50%  {left:0px; top:-50px;}
+  100% {left:0px; top:0px;}
 }
 
 .social {
