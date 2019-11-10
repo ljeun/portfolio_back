@@ -1,0 +1,16 @@
+<dl class="project">
+        <div>
+            <img data-action="zoom" class="project-image-main project-detail" style='{{ page.image_main_style }}' src='{{ page.image_main | relative_url }}' alt="Project Works by Jeongeun Lee" >
+
+            <p class="pre-desc">{{ page.period }} &nbsp;&nbsp; {{ page.type }}</p>
+            <p class="title">{{ page.title }}</p> <br/>
+            <p class="overview">{{ page.overview }}
+              <a class="link" href='{{ project.link}}' target="_blank">{{ page.link_name}}</a>
+            </p> <br/>
+            <p class="description">Role: {{ page.role }}</p> <br/>
+            <p class="description">{{ page.description }}
+        </div>
+        <div>
+            <img data-action="zoom" class="project-image-sketches" style='{{ page.image_sketches_style }}' src='{{ page.image_sketches | relative_url }}' alt="Work Progress by Jeongeun Lee" >
+        </div>
+</dl>

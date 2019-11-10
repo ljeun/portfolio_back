@@ -1,48 +1,58 @@
--   title: Designing a Gamified Augmented Reality Application for Tourists to Encourage Their Local Food Consumption
+-   title: Gamified AR App for Local Food
+    subtitle: Designing a Gamified Augmented Reality Application for Tourists to Encourage Their Local Food Consumption
     type: Master's Thesis
-    period: Dec.2018 - May.2019
+    period: 2019
+    period_detail: Dec.2018 - May.2019
+    url: project/
     role: Researcher, Designer
     overview: An empirical design study with AR technology and gamification to encourage tourists' local food consumption.
     description: Local food is unfamiliar to travelers in new places, and it is a challenge that requires much time and effort to choose and find the information. Augmented Reality (AR) and gamification can derive a possibility to support travelers to consume local food. The benefits of MAR and gamification were explored through the design and evaluation of a gamified MAR application prototype to encourage travelers’ local food consumption. <br/> From user studies (observations, interviews and initial concept evaluation), tourists’ needs were identified, and UX goals were defined as adventure, autonomy, and competence as to what experiences the application provides. The goals guided the design and evaluation of a gamified MAR application. The application recognizes the real food through an AR mobile screen and displays basic food information with name/ingredient and 'food miles' which refers to how far the main ingredients come from the distance. Besides, gamification was applied for the users’ actions as collecting the food/ingredients and assigning levels according to how much local food a user consumed. <br/><br/> <a href="https://trepo.tuni.fi/handle/123456789/27605" class="link">Thesis Document (open access)</a>
-    image_main: /img/works/masterthesis/demo.gif
-    #image_main: /img/works/masterthesis/main.png
-    image_sketches: /img/works/masterthesis/sketches.png
-    #video: https://www.youtube.com/embed/zWNMQqRc3As
-    # link_name: prototype
-    # link: https://invis.io/ENO4FKZ29CZ
+    image_main: /img/works/masterthesis/main.png
+    link: /masters-thesis/
 
--   title: "Demola Project: <br/> Transparent Transportation "
-    type: Student-Company Project
-    period: Jan.2018 - Mar.2019
+-   title: Transparent Transportation
+    subtitle: "Demola Project: <br/> Transparent Transportation "
+    type: Demola Project
+    period: 2019
+    period_detail: Jan.2018 - Mar.2019
     role: Designer
     overview: An accessible app to divert some of the taxi orders for passengers (the specific user group as the visually impaired).
     description: This project started with the problem which has a bottleneck in the information flow between users and Public Organizing taxi call center, resulting in long queues on the phone. Notably, the users were mostly those who have difficulties in riding general public transportation so need easy access to the taxi service. In this context, our solution was to provide an accessible mobile application which diverts some of the orders by the users from the phone queues. The app is firstly designed, targeting at the visually impaired.
     image_main: /img/works/demola/main.png
-    image_sketches: /img/works/demola/sketches.png
-    # link_name: prototype
-    # link: https://invis.io/ENO4FKZ29CZ
 
 -   title: Emission Detector
-    type: Student work
-    period: Oct.2017-Mar.2018
+    type: Industry-Academic Project
+    period: 2018
+    period_detail: Oct.2017-Mar.2018
     role: Designer
-    overview: Industrial project work with an emission company, Aeromon. I was involved in a user experience design and evaluation, ranging from defining UX goals to designing and evaluating the concept.
+    overview: Industrial project work with an emission company, Aeromon. I was involved in a user experience design and evaluation.
     description: Emission monitoring system was to detect, measure unexpected emissions and report the summary to decision-makers. The problem was that novice users (decision making persons) have difficulties to notice/analyze critical information in their current system. After the meeting with stakeholders, our team defined  four UX goals; ease of use, clarity, naturalness, and functionality against the problem. The following tasks are as below.<br/> -Analyzed the current system in detail in both pragmatic and hedonic ways; functionality, UI, User Flows. <br/> -Designed new concept with changed user flow, consistent UI elements.<br/> -Visualized screens in accordance with the new concept.<br/> -Worked interactive prototype to see how it works by actions.<br/> -Evaluated the prototype with two evaluation methods; AttrakDiff and ASQ( After-Scenario-Questionnaire) <br/><br/> It was the most difficult to consider the completely different group of users. Since the users include both technical engineers and the decision-makers like the administrative head of officer, there were huge gaps between them for the familarity and proficiency with the system. However, the most significant data was the same, which allowed us to focus on that view.
     image_main: /img/works/emissions/main.png
-    image_main_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
-    image_sketches: /img/works/emissions/sketches.png
-    # link_name: prototype.
-    link: https://invis.io/ENO4FKZ29CZ
 
--   title: <a target="_blank" href="https://ljeun.github.io/little-big-ux/posts/" class="title link">Little Big UXtails</a>
+-   title: Samsung SDS
+    type: Enterprise Solution
+    period: 2014-2017
+    role: Designer
+    overview: UX design for Enterprise IT solutions in the retail and mobility industry. Researched prior to business and designed end-to-end user experience.
+    description: I have designed user experiences or specific user interfaces on screens of digital products. In broader way, I did design activities to draw a solution or concept, such as journey map, ecosystem, and storyboard. As for more specific and the last actions, I designed screens for web or mobile with detail specifications. For example, I have designed a digital product - Nexshop for retail companies. I have used different kinds of tools such as Powerpoint, Balsamiq, Adobe, Sketch, and Invision.
+    image_main: /img/works/samsungsds/main.png
+
+-   title: Samsung SDS, UI Framework
+    type: Internal Research
+    period: 2012-2014
+    role: Designer, Front-end Developer
+    overview: UI Components with samples and codes for internal developers.
+    description: I was involoved in design and front-end development of UI framework for internal developers in Samsung SDS. I created several sets of UI components such as button, slider, or accordion with codes which covers Html, CSS, Javascript, and JQuery.
+    image_main: /img/works/uiframework/main.png
+
+-   title: Little Big UXtails
+    subtitle: <a target="_blank" href="https://ljeun.github.io/little-big-ux/posts/" class="title link">Little Big UXtails</a>
     type: Side Project
-    period: 2019-
+    period: 2019
     role: Designer, Front-end Developer
     overview: Collection of little but big details of product/service design in my everyday life and travel.
     description: I used to take pictures of good or bad UX designs for products/services after I learned UX and start to work for design a digital solutions (It was inspired by a book of "The design of everytday things" by Don Norman). Most of time, those were little detail things but made a big differences for people who use the product or service. Looking back, the images and thoughts behind those have been serving me to have a keen eye and good ideas, so I started to collect the pictures in a web page to remind and use for ideation or any other design activities whenever I needed.
     image_main: /img/sideprojects/littlebigux/main.png
-    image_main_style: 'box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);'
-    image_sketches: /img/sideprojects/littlebigux/sketches.png
 
 # -   title: Debator
 #     type: Student Work

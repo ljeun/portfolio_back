@@ -6,7 +6,8 @@ $spacer: 20px;
 
 .container {
     max-width: 860px;
-    margin: 0 auto;
+    margin: 100px auto 0px auto;
+    //margin: 0 auto;
     padding: 0 $spacer;
     text-align: left;
 }
@@ -28,4 +29,10 @@ $spacer: 20px;
         height: 1px;
         background: #222;
     }
+}
+
+.top-bar {
+  font-size: 0.8rem;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
