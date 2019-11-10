@@ -12,5 +12,8 @@
         </div>
         <div>
             <img data-action="zoom" class="project-image-sketches" style='{{ page.image_sketches_style }}' src='{{ page.image_sketches | relative_url }}' alt="Work Progress by Jeongeun Lee" >
+            {% if page.image_sketches2 %}
+            <img data-action="zoom" class="project-image-sketches" style='{{ page.image_sketches_style }}' src='{{ page.image_sketches2 | relative_url }}' alt="Work Progress by Jeongeun Lee" >
+            {% endif %}
         </div>
 </dl>

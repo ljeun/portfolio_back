@@ -29,6 +29,9 @@ dd p:last-child {
 }
 
 .project-image-sketches {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 60px;
   width: 80%;
 }
@@ -50,12 +53,6 @@ dd p:last-child {
   height: 310.75px;
   overflow: hidden;
   margin-bottom: 30px;
-}
-
-.project-unit a {
-  color: inherit;
-  text-decoration: none;
-  background: transparent;
 }
 
 
@@ -115,6 +112,9 @@ dd p:last-child {
     }
 
     .project-image-sketches {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 60px;
       width: 80%;
     }
@@ -183,6 +183,14 @@ a {
     //     text-decoration: none;
     // }
 }
+
+
+.project-unit a {
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
 // .project-unit:hover img {
 //   -webkit-animation: imgmove 1s 1; /* Chrome, Safari, Opera */
 //   animation: imgmove 1s 1;
