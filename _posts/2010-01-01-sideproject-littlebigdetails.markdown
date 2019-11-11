@@ -2,7 +2,7 @@
 layout: project
 permalink: /sideproject-littlebigdetails/
 title: Little Big UXtails
-subtitle: <a target="_blank" href="https://ljeun.github.io/little-big-ux/posts/" class="title link">Little Big UXtails</a>
+project_url: <a target="_blank" href="https://ljeun.github.io/little-big-ux/posts/" class="title link">Little Big UXtails</a>
 type: Side Project
 period: 2019
 role: Designer, Front-end Developer

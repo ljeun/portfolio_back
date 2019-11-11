@@ -1,9 +1,14 @@
 <dl class="project">
         <div>
             <img data-action="zoom" class="project-image-main project-detail" style='{{ page.image_main_style }}' src='{{ page.image_main | relative_url }}' alt="Project Works by Jeongeun Lee" >
-
             <p class="pre-desc">{{ page.period }} &nbsp;&nbsp; {{ page.type }}</p>
-            <p class="title">{{ page.title }}</p> <br/>
+            <p class="title">
+            {% if page.project_url %}
+              {{ page.project_url }}
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+            </p><br/>
             <p class="overview">{{ page.overview }}
               <a class="link" href='{{ project.link}}' target="_blank">{{ page.link_name}}</a>
             </p> <br/>
