@@ -33,6 +33,13 @@ $spacer: 20px;
 
 .top-bar {
   font-size: 0.8rem;
+  padding: 20px 40px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.bottom-bar {
+  font-size: 0.8rem;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid rgba(0,0,0,0.1);

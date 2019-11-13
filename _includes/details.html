@@ -1,20 +1,44 @@
+
+<div class="container">
 <dl class="project">
         <div>
-            <img data-action="zoom" class="project-image-main project-detail" style='{{ page.image_main_style }}' src='{{ page.image_main | relative_url }}' alt="Project Works by Jeongeun Lee" >
-            <p class="pre-desc">{{ page.period }} &nbsp;&nbsp; {{ page.type }}</p>
-            <p class="title">
+            <!-- <p class="pre-desc">{{ page.period }} &nbsp;&nbsp; {{ page.type }}</p> -->
+            <p class="title-detail">
             {% if page.project_url %}
               {{ page.project_url }}
             {% else %}
               {{ page.title }}
             {% endif %}
             </p><br/>
-            <p class="overview">{{ page.overview }}
+            <div class="description-detail">
+              <p class="label-detail">Role</p>
+              <p>{{ page.role }}</p>
+             <br/>
+
+            <p class="label-detail">Overview</p>
+            <p> {{ page.overview }}
               <a class="link" href='{{ project.link}}' target="_blank">{{ page.link_name}}</a>
             </p> <br/>
-            <p class="description">Role: {{ page.role }}</p> <br/>
-            <p class="description">{{ page.description }}
-        </div>
+            </div>
+
+</dl>
+</div>
+<div>
+  {% if page.image_main_detail %}
+  <img data-action="zoom" class="project-image-main" style='{{ page.image_main_style }}' src='{{ page.image_main_detail | relative_url }}' alt="Project Works by Jeongeun Lee" >
+  {% else %}
+  <img data-action="zoom" class="project-image-main" style='{{ page.image_main_style }}' src='{{ page.image_main | relative_url }}' alt="Project Works by Jeongeun Lee" >
+  {% endif %}
+</div>
+
+<div class="container">
+<dl class="project">
+
+
+
+
+            <p class="description-detail">{{ page.description }}
+
         <div>
             <img data-action="zoom" class="project-image-sketches" style='{{ page.image_sketches_style }}' src='{{ page.image_sketches | relative_url }}' alt="Work Progress by Jeongeun Lee" >
             {% if page.image_sketches2 %}
@@ -22,3 +46,4 @@
             {% endif %}
         </div>
 </dl>
+</div>
