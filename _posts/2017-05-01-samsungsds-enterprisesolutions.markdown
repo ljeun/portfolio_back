@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /samsungsds-enterprisesolutions/
-title: Samsung SDS
+title: 'Samsung SDS: Enterprise Solutions'
 type: Enterprise Solutions
 period: 2014-2017
 role: User Research, UI Research, Concept Design, UI Design, Prototyping, Data Visualization
