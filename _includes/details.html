@@ -45,6 +45,11 @@
     <p class="label-detail">{{ page.section_3 }}</p>
     <p class="description-detail">{{ page.content_3 }} </p>
     {% endif %}
+    <br/>
+    {% if page.section_4 %}
+    <p class="label-detail">{{ page.section_4 }}</p>
+    <p class="description-detail">{{ page.content_4 }} </p>
+    {% endif %}
         <div>
             {% if page.image_sketches %}
             <img data-action="zoom" class="project-image-sketches" style='{{ page.image_sketches_style }}' src='{{ page.image_sketches | relative_url }}' alt="Work Progress by Jeongeun Lee" >
